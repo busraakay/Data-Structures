@@ -34,7 +34,7 @@ Best case: O(n)
 ```
 Average case
 ```
-#### [7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+#### [7, 3, 5, 8, 2, 9, 4, 15, 6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
 ```
 1. [2, 3, 5, 8, 7, 9, 4, 14, 15, 6]
 2. [2, 3, 4, 8, 7, 9, 5, 14, 15, 6]
@@ -45,6 +45,20 @@ Average case
 
 
 ## <p id = 'Merge Sort Projesi' > Merge Sort Projesi </p> 
+#### [16, 21, 11, 8, 12, 22] -> Merge Sort
+1. Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+```
+[16, 21, 11, 8, 12, 22]
+[16, 21, 11]  | [8, 12, 22]
+[16] [21, 11] | [8, 12] [22]
+[16] [11, 21] | [8, 12] [22]
+[11, 16, 21]  | [8, 12, 22]
+[8, 11, 12, 16, 21, 22]
+```
+2. Big-O gösterimini yazınız.
+```
+O(nlog(n))
+```
 ## <p id = 'Binary Search Tree Projesi' > Binary Search Tree Projesi </p> 
 
 
