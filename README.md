@@ -60,5 +60,24 @@ Average case
 O(nlog(n))
 ```
 ## <p id = 'Binary Search Tree Projesi' > Binary Search Tree Projesi </p> 
+#### [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+```
+root = 7 olarak alalım.
+     7
+    / \
+   5   8
+  / \   \
+ 1   6   9
+/ \
+0  3
+  / \
+  2  4
+  
+Eğer 10 eklemek istersek root'umuza yani 7'ye bakacağız. 
+10, 7'den büyük olduğu için sağ tarafa ineceğiz.
+8, 10'dan büyük olduğu için yine sağ tarafa ineceğiz.
+9'da 10'dan büyük olduğu için ve başka bakacak eleman kalmadığı için 10'u 9'un sağ tarafına ekleyeceğiz.
+```
 
